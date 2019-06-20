@@ -58,7 +58,11 @@ body {
 @font-face {
     font-family: 'iconfont';
     src: url('../icofonts/iconfont.eot');
-    src: url('../icofonts/iconfont.eot?#iefix') format('embedded-opentype'), url('../icofonts/iconfont.woff2') format('woff2'), url('../icofonts/iconfont.woff') format('woff'), url('../icofonts/iconfont.ttf') format('truetype'), url('../icofonts/iconfont.svg#iconfont') format('svg');
+    src: url('../icofonts/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../icofonts/iconfont.woff2') format('woff2'), 
+    url('../icofonts/iconfont.woff') format('woff'), 
+    url('../icofonts/iconfont.ttf') format('truetype'), 
+    url('../icofonts/iconfont.svg#iconfont') format('svg');
 }
 
 .iconfont {

@@ -102,6 +102,7 @@ $(".detail-all").mouseenter(function () {
 $(".detail-all").mouseleave(function () {
     $(this).hide().siblings(".nav-category").children("ul").hide();
 });
+
 // 电梯导航
 $(".brand-wrap li").hover(function () {
     $(this).find("p").show().parents("li").siblings("li").find("p").hide(); 
@@ -143,7 +144,7 @@ function right() {
     } 
     $(".fbc-trigger-con i:nth-child(" + index + ")").addClass("change").siblings().removeClass("change");
     $(".focus-banner-con ul").css({
-        left : -1920 * index - 285 + 'px',
+        left : -1350 * index + 'px',
     })
 }
 $(".arrow-r").click(function () {
@@ -157,18 +158,18 @@ $(".arrow-l").click(function () {
     // $(".else .box1 div:nth-child(" + index + ")").hide();
     $(".fbc-trigger-conn i:nth-child(" + index + ")").addClass("change").siblings().removeClass("change");
     $(".focus-banner-con ul").css({
-        left : -1920 * index - 285 + 'px',
+        left : -1350 * index + 'px',
     })
 });
 $(".fbc-trigger-con i").click(function () {
     $(this).addClass("change").siblings().removeClass("change");
     if ($(this).index() == 0) {
         $(".focus-banner-con ul").css({
-            left : -1920 * 2 - 285 + 'px',
+            left : -1350 * 2 + 'px',
         })
     } else if ($(this).index() == 1) {
         $(".focus-banner-con ul").css({
-            left : -1920 * 1 - 285 + 'px',
+            left : -1350 * 1 + 'px',
         })
     }
 });

@@ -585,6 +585,9 @@
     font-weight: 600;
     color: #f10180;
 }
+
+
+/* 主体内容区域 */
 /* 轮播图区域 */
 .focus-banner {
     position: relative;
@@ -602,23 +605,30 @@
 }
 .focus-banner-con ul {
     position: absolute;
-    left: -285px;
-    width: 7680px;
+    left: 0;
+    /* left: -285px;
+    width: 7680px; */
+    width: 5400px;
     height: 360px;
 }
 .focus-banner-con ul li {
     position: relative;
     float: left;
-    width: 1920px;
+    /* width: 1920px; */
+    width: 1350px;
     height: 360px;
+    /* background: url(../wph/15524728324327.jpg) no-repeat -285px 0; */
+    background: url(../wph/6ff413bc5f0a7549d9a73e6a44a0b0fa.jpg) no-repeat -285px 0;
+
 }
 
 .focus-banner-con li img {
     position: absolute;
-    /* left: 50%;
-    transform: translateX(-50%); */
+    left: 50%;
+    transform: translateX(-50%);
     top: 0;
-    width: 100%;
+    /* width: 100%; */
+    width: 1000px;
     height: 360px;
     vertical-align: top;
 }
@@ -736,7 +746,7 @@
     color: #f10180;
 }
 .brand-wrap p {
-    display: none;
+    /* display: none; */
     position: absolute;
     top: 210px;
     right: 10px;
@@ -745,8 +755,9 @@
     line-height: 18px;
     padding: 0 6px;
     border-radius: 12px;
-    background-color: #f10180;
-    border: 1px solid #f10180;
+  
+    background-color: #fff;
+    border: 1px solid #fff;
     color: #fff;
     font-size: 12px;
     text-align: center;
@@ -755,9 +766,17 @@
     display: inline-block;
     width: 17px;
     height: 15px;
-    background: url(../wph/sprite-hash-465ccbdf.png) -81px -173px;
+    background: url(../wph/index_imgs-hash-563d9268.png-7664a971.png) -600px -200px;
     vertical-align: middle;
 }
+.brand-wrap p span:last-child {
+    color: #333;
+}
+.brand-wrap p:hover {
+    background-color: #f10180;
+    border: 1px solid #f10180;
+}
+
 /* 即将推出部分 */
 .launch {
     width: 1000px;
@@ -1030,6 +1049,8 @@
     font-size: 14px;
     border-left: 1px solid #e7e7e7;
 }
+
+
 /* 右侧固定导航区域 */
 .fix {
     position: fixed;
@@ -1149,7 +1170,7 @@
 .shopBag {
     height: 151px;
     /* margin-bottom: 4px; */
-    background-color: #f10180;
+    background-color: #df147f;
 }
 .shopBag div:first-child {
     width: 24px;
@@ -1172,9 +1193,10 @@
     height: 24px;
     line-height: 24px;
     margin: 5px auto 0;
-    border-radius: 50%;
-    background-color: #fff;
+    /* border-radius: 50%; */
+    /* background-color: #fff; */
     color:#000;
+    background: url(../wph/sprite-hash-465ccbdf.png) no-repeat -230px -87px;
 }
 
 .else {
