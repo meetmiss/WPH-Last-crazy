@@ -1,0 +1,396 @@
+/*广告区域/*/
+.banner{
+    height: 324px;
+    width: 100%;
+    overflow: hidden;
+    background: url(../img/background-banner-hash-ce720d87.jpg) repeat-x 0px 0px/147px 246px;
+   }
+.banner-bd {
+    position: relative;
+      height: 256px;
+      margin-top: 30px;
+      background-color: #fff;
+      box-shadow: 1px 1px 2px 0px;
+      }      
+
+.banner-bd img {
+    position: absolute;
+    height: 240px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: 10px;
+}
+.banner-bd .dwl {
+    position: absolute;
+    width: 222px;
+    height: 116px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 50px;
+    border-top: 5px solid #dee4e9;
+    border-bottom: 5px solid #dee4e9;
+}
+.banner-bd .dwl div{
+    height: 102px;
+    margin-top: 5px;
+    border-top: 2px solid #dee4e9;
+    border-bottom: 2px solid #dee4e9;
+    text-align: center;
+}
+.banner-bd  .dwl h1{
+    font-size: 46px;
+    color: #34373a;
+}
+.banner-bd .dwl p{
+    font-size: 22px;
+    color: #97989a;
+}
+/*广告完成*/
+/*主题内容区域
+左侧电梯*/
+.main {
+    position: relative;
+    width: 100%;
+}
+.main .left-floor{
+    position: absolute;
+    left: 30px;
+    top: 72px;
+    width: 108px;
+    height: 240px;
+    border: 1px solid #d6d6d6;
+    border-radius: 5px ; 
+}
+.main .left-floor ul {
+    padding: 4px
+}
+.hover {
+    color: #f10180 !important;
+}
+.main .left-floor li{
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    border-top: 1px solid #d6d6d6;
+    color: #66667f;
+    font-size: 14px;
+}
+/*左侧电梯li换背景*/
+ .left-change{
+    background-color: #f10180;
+    color: #fff !important;
+    border-radius: 3px;
+}
+.main .left-floor ul li:first-child{
+    border-top: 0;
+
+}
+/*开售区域*/
+.wan20,.liuyue14,.liuyue14-20,.liuyue15,.liueyue15-20{
+    margin-top: 50px;
+}
+.main  .th .fl{
+    width: 250px;
+    height: 44px;
+    border-bottom: 2px solid #000;
+}
+.main .th .fl span:first-child{
+    font-size: 32px;
+    font-weight: 700;
+    color: #333333;
+}
+.main .th .fl span:last-child{
+    font-size: 32px;
+    color: #333333;
+}
+.main .th .fr{
+    width: 746px;
+    height: 44px;
+    border-bottom: 1px solid #dee4e9;
+}
+.main .bd ul {
+    width: 1030px;
+    
+}
+
+.main .bd li {
+    float: left;
+    position: relative;
+    margin-right: 30px;
+    margin-top: 30px;
+    height: 180px;
+    margin-bottom: 10px;
+}
+
+.main .bd li:nth-child(3n+3){
+    margin-right: 0;
+}
+.main .bd .first {
+    width: 320px;
+    height: 50px;
+}
+.main .bd .first span {
+    display: inline-block;
+    width: 210px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #111111;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.main .bd .first i{
+    margin-top: 10px;
+    margin-left: 5px;
+    float: right;
+    font-size: 16px;
+    color: #111111;
+}
+   /*开售提醒隐藏框*/
+.main .bd .last {
+    position: absolute;
+    width: 330px;
+    z-index: 1;
+    left: 0;
+    bottom: -15px;
+    display: none;
+    margin-top: 20px;
+}
+.main .bd .last input {
+    width: 213px;
+    padding-left: 10px;
+    height: 28px;
+    border: 1px solid #c1c1c1;
+    border-right: 0;
+    vertical-align: middle;
+}
+.main .bd .last .btn {
+    display: inline-block;
+    margin-left: -5px;
+    width: 96px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #42a7db;
+    border: 1px solid #c1c1c1;
+    vertical-align: middle;
+
+}
+/*打折样式*/
+.main .bd .first .dazhe {
+    font-size: 18px;
+    color: #f201a1;
+}
+/*输入隐藏*/
+.hide {
+  position: absolute;
+  display: none;
+  background-color: #fff;
+  z-index: 2;
+  left: 0;
+  bottom: -65px;
+  width: 216px;
+  padding-left: 10px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 3px; 
+    box-shadow: 1px 1px 1px 0;   
+}
+/*主题结束*/
+/*登录开始*/
+.denglu{
+    position: relative;
+    margin: 0 auto;
+    width: 430px;
+    height: 525px;
+    border: 5px solid rgb(0,0,0,.2);
+}
+.denglu .off{
+    position: absolute;
+    overflow: hidden;
+    top: 10px;
+    right:10px;
+    width: 16px;
+    height: 16px;
+    /*background-color: red;*/
+    background: url(../img/detail_imgs_png8-hash-753fd810.png-f874f25a.png) -398px -201px;
+}
+/*切换颜色*/
+.current{
+    color: #f10180;
+
+}
+.denglu .dl-top span,.denglu .dl-top em {
+    display: inline-block;
+    padding-top: 63px;
+    font-size: 18px;
+}
+.denglu .dl-top span:nth-child(2){
+    margin: 0 45px 0 85px;
+    font-weight: 700;
+}
+.denglu .dl-top span:nth-child(4){
+    margin: 0 85px 0 45px;
+    font-weight: 700;
+}
+/*身体1*/
+.denglu .dl-bd1{
+   
+    position: relative;
+    height: 326px;
+}
+.denglu .dl-bd1 .erweima {
+    /*background-color: pink;*/
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000;
+    left: 0;
+    right: 0;
+    margin: 60px auto;
+    background: url(../img/getQrImage.jpg);
+}
+.denglu .dl-bd1 .soyisao{
+    position: absolute;
+    display: none;
+    width: 122px;
+    height: 196px;
+    top: 30px;
+    right: 70px;
+    background: url(../img/sprites-hash-6954197b.png) 0 -102px;
+
+}
+.denglu .dl-ss{
+    position: absolute;
+    width: 250px;
+    height: 15px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 50px;
+}
+.dl-ss i:nth-child(1){
+    display: inline-block;
+   margin-left: 10px;
+    width: 20px;
+    height: 20px;
+   
+    background: url(../img/hui_sp.png) -70px -87px;
+}
+.dl-ss i:nth-child(3){
+   color: #fa9dce;
+    
+}
+/*登录底部*/
+.denglu .dl-ft {
+    position: relative;
+}
+.denglu .weixin {
+    position: absolute;
+   
+    background: url(../img/sprites-hash-6954197b.png)-307px -161px;
+    top: -60px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 42px;
+    height: 42px;
+}
+.denglu .dl-ft div{
+    margin: 0 30px;
+    border-top: 1px solid #e0e0e0;
+}
+.denglu .dl-ft a {
+    display: inline-block;
+    margin-top: 40px;
+
+}
+.denglu .dl-ft a:nth-child(4){
+    padding: 0 10px;
+}
+.denglu .dl-ft a:nth-child(6){
+    padding: 0 10px;
+}
+.denglu .dl-ft a:nth-child(8){
+    padding: 0 30px;
+}
+.denglu .dl-ft a:nth-child(9){
+   float: right;
+   margin-right: 30px;
+}
+.denglu .dl-ft a:nth-child(3){
+  
+  margin-left: 30px;
+}
+.denglu .dl-bd2{
+    display: none;
+    position: relative;
+    overflow: hidden;
+    height: 326px;
+   
+
+}
+/*身体2*/
+.denglu .dl-bd2 .dddd input {
+    
+    margin-left: 65px;
+    width: 258px;
+    height: 44px;
+    border: 1px solid #b2b2b2;
+    border-radius: 5px;
+    padding-left: 40px;
+    
+}
+.denglu .dl-bd2 .dddd input:first-child{
+    margin-top: 55px;
+    
+}
+.denglu .dl-bd2 .dddd input:nth-child(2){
+    margin-top: 26px;
+}
+.denglu .dl-bd2 .wangji {
+    position: relative;
+    margin-top: 30px;
+}
+.denglu .dl-bd2 .wangji input {
+    margin-left: 65px;
+    margin-right: 5px;
+}
+.denglu .dl-bd2 .wangji span {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 65px;
+}
+.denglu .dl-bd2 div:last-child{
+    margin: 34px auto;
+    width: 300px;
+    height: 46px;
+    line-height: 46px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #f10180;
+}
+.d-denglu {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.1);
+}
+.denglu {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: #fff;
+}

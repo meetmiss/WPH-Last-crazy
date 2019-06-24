@@ -1,0 +1,638 @@
+/* 顶部导航样式 */
+.header{
+    height: 28px;
+    line-height: 28px;
+    background-color: #f5f5f5;
+}
+.header-l select {
+    border: 0;
+    background-color: #f5f5f5;
+}
+.header-r li {
+    float: left;
+    margin-left: 15px;
+}
+.header-r i {
+    display: inline-block;
+    width: 15px;
+    height: 16px;
+    background: url(../img/shouji\ 003747.png) no-repeat;
+
+}
+.header-r li img{
+    height: 16px;
+    line-height: 16px;
+}
+/* 搜索区域 */
+.top-nav {
+    height: 100px;
+    margin-top: 20px;
+}
+.nav-l img{
+    width: 160px;
+}
+.nav-r {
+    margin-top: 10px;
+}
+.nav-r i {
+    display: inline-block;
+    width: 95px;
+    height: 50px;
+    background: url(../img/1547114272497.png) no-repeat 3px -12px;
+    background-size: 304px, 100px;
+}
+.nav-r .one {
+    background: url(../img/1547114272497.png) -97px -12px;
+    background-size: 304px, 100px;
+}
+.nav-r .two {
+    background: url(../img/1547114272497.png) -192px -12px;
+    background-size: 304px, 100px;
+}
+.nav-inps input {
+    width: 335px;
+    height: 32px;
+    border: 1px solid #fa2a83;
+    border-right: 0;
+}
+.nav-inps{
+    position: relative;
+    width: 355px;
+    height: 34px;
+    margin-top: 34px;
+    margin-left: 90px;
+}
+.nav-inps a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-block;
+    width: 54px;
+    height: 34px;
+    line-height: 34px;
+    background-color: #fa2a83;
+    text-align: center;
+}
+.nav-inps input {
+    padding-left: 10px;
+}
+.nav-shop {
+    width: 94px;
+    height: 32px;
+    background-color: #f6f7f9;
+    border: 1px solid #ccc;
+    margin-top: 34px;
+    text-align: center;
+}
+.nav-shop img {
+    margin-left: 5px;
+}
+.nav-shop i {
+    display: inline-block;
+    width: 24px;
+    height: 15px;
+    background-color: #fa2a83;
+    border-radius: 10px;
+    margin-left: 5px;
+    color: #fff;
+    margin-top: 10px;
+}
+/* 商品分类列表 */
+.list {
+    position: relative;
+    height: 44px;
+}
+.list .list-right{
+    position: absolute;
+    left: 156px;
+    top: 43px;
+    /* height: 495px; */
+    background-color: #fff;
+    z-index: 100;
+}
+.list .list-right ul{
+    display: none;
+    height: 495px;
+}
+.list .list-right li{
+    font-size: 14px;
+    /* line-height: 44px; */
+    padding: 5px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #eee;
+    margin-left: 30px;
+}
+.list .list-right li:last-child{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+.list .list-right li div{
+    display: inline-block;
+    width: 85px;
+}
+.list .list-right li span {
+   float: right;
+}
+.shop-list {
+    position: absolute;
+    width: 156px;
+    line-height: 45px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #f10180;
+    z-index: 100;
+}
+.list-menu {
+    display: none;
+    border-bottom: 1px solid #f10180;
+    cursor: pointer;
+}
+.col{
+    color: #f10180;
+    background-color: #fff;
+}
+.list-fenlei {
+    margin-left: 120px;
+}
+.list-fenlei ul {
+    margin-left: 40px;
+}
+.list-fenlei li {
+    float: left;
+    height: 45px;
+    line-height: 44px;
+    margin-left: 25px;
+    font-size: 16px;
+}
+.list-fenlei .pink1 {
+    font-weight: 700;
+    color: #f10180;
+}
+.list-fenlei ul li a:hover {
+    color: #f10180;
+}
+
+
+
+.more {
+    position: absolute;
+    right: 60px;
+    top: 0;
+    width: 75px;
+    background-color: #fff;
+    margin-top: 10px;
+}
+.more-a {
+    height: 33px;
+}
+.more i {
+    display: inline-block;
+    width: 11px;
+    height: 9px;
+    margin-left: 5px;
+    background: url(../img/detail_imgs_png8-hash-753fd810.png-f874f25a.png) 0 -399px;
+}
+.more a {
+    font-size: 16px;
+}
+.more ul {
+    display: none;
+    margin: 0;
+}
+.more ul li {
+    float: none;
+    margin: 0;
+}
+
+
+
+/*头部*/
+
+
+
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+.list-hide{
+    display: none;
+}
+.head-nav{
+    position: relative;
+    height: 28px;
+    line-height: 28px;
+    background-color: #f5f5f5;
+    color: #777;
+}
+.area{
+    position: relative;
+    padding-left: 15px;
+    padding-right: 23px;
+    width: 46px;
+    height: 28px;
+    float: left;
+}
+
+.head-lead{
+    margin: 0 auto;
+}
+
+.icon-area{
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: #999999 transparent transparent transparent;
+    border-width: 4px;
+}
+
+
+.u-nav li{
+    float: left;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 17px;
+    z-index: 4;
+}
+.line{
+    background: url("../img/head.png") no-repeat -270px -184px;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 6px;
+    right: -5px;
+}
+.s-my{
+    position: relative;
+    padding: 0 20px 0 5px;
+    z-index: 13;
+}
+.icon-user{
+    display: inline-block;
+    background: url("../img/head.png") no-repeat -60px -236px;
+    width: 26px;
+    height: 26px;
+}
+.wp-sign a img {
+    vertical-align: top;
+}
+.wp-sign a span {
+    vertical-align: top;
+}
+.wp-sign .day {
+    position: absolute;
+    left: -201px;
+    height: 27px;
+    /* éšè— */
+    display: none;
+    width: 402px;
+    height: 152px;
+    padding: 0 29px;
+    border: 1px solid #dbdada;
+    background-color: #fff;
+    text-align: center;
+    z-index: 1;
+}
+.day .day-sign {
+    height: 60px;
+    padding-top: 44px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.day-sign .start {
+    display: inline-block;
+    width: 20px;
+    height: 17px;
+    background: url('../img/sprites-hash-b45bfef8.png') no-repeat -244px -184px;
+    vertical-align: middle;
+}
+.day-sign .center {
+    display: inline-block;
+    width: 24px;
+    height: 17px;
+    background: url('../img/sprites-hash-b45bfef8.png') no-repeat -216px -184px;
+    vertical-align: middle;
+}
+.day-sign .end {
+    display: inline-block;
+    width: 20px;
+    height: 17px;
+    background: url('../img/sprites-hash-b45bfef8.png') no-repeat -193px -184px;
+    vertical-align: middle;
+}
+.day-sign .lineae {
+    display: inline-block;
+    width: 41px;
+    height: 2px;
+    background-color: #ccc;
+    vertical-align: middle;
+}
+.day-sign span:nth-child(n+2) {
+    margin: -1px 0 0 -5px;
+}
+.day-sign .num span {
+    color:#666;
+    margin-right: 44px;
+}
+.day-sign .num span:last-child {
+    margin-right: 0;
+}
+.day p {
+    margin-top: 10px;
+}
+.day p a {
+    float: left;
+    line-height: 24px;
+    text-decoration: underline;
+}
+.day p button {
+    float: right;
+    width: 72px;
+    height: 24px;
+    line-height: 24px;
+    background-color: #f10180;
+    color: #fff;
+}
+.phone-number{
+    vertical-align: top;
+}
+.phone-close{
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: #999999 transparent transparent transparent;
+    border-width: 4px;
+}
+
+.s-icon{
+    display: inline-block;
+    background: url("../img/lw.gif") no-repeat;
+    width: 15px;
+    height: 18px;
+    margin-top: 3px;
+}
+
+.s-text{
+    vertical-align: top;
+}
+
+.wp-tm{
+    padding-left: 13px;
+    width: 60px;
+    padding-right: 20px;
+    height: 26px;
+}
+
+.mtm{
+    position: absolute;
+    z-index: 20;
+}
+
+.mtm a:hover{
+    color: #f10180;
+}
+.mber a:hover{
+    color: #f10180;
+}
+.serv a:hover{
+    color: #f10180;
+}
+.list-hide{
+    display: none;
+}
+.tm-list{
+    width: 93px;
+    border: 1px solid #cdcdcd;
+    position: absolute;
+    padding-top: 28px;
+    top: 0px;
+    left: -7px;
+    background-color: #ffffff;
+    z-index: 10;
+}
+
+.tm-list p span,.mb-list p span,.sv-list p span{
+    display: block;
+}
+
+
+
+.tm-list p,.mb-list p,.sv-list p{
+    padding-left: 15px;
+}
+
+.tm-list a:hover,.mb-list a:hover,.sv-list a:hover{
+    color: #f10180;
+}
+
+.t-icon,.m-icon,.sv-icon,.mo-icon{
+    display: inline-block;
+    margin-top: 5px;
+    vertical-align: middle;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: #999999 transparent transparent transparent;
+    border-width: 4px;
+}
+
+.red{
+    border-color: transparent transparent red transparent;
+    margin-top:-5px;
+}
+
+.mb-list{
+    width: 105px;
+    border: 1px solid #cdcdcd;
+    position: absolute;
+    padding-top: 28px;
+    top: 0px;
+    left: -6px;
+    background-color: #ffffff;
+    z-index: 10;
+}
+.wp-member{
+    width: 72px;
+    padding-left: 13px;
+    padding-right: 20px;
+    height: 26px;
+}
+
+.mber,.serv{
+    position: absolute;
+    z-index: 21;
+}
+
+.wp-service{
+    z-index: 11;
+    width: 70px;
+    padding-left: 13px;
+    padding-right: 20px;
+    height: 26px;
+    text-align: left;
+}
+
+.sv-list{
+    width: 102px;
+    text-align: left;
+    border: 1px solid #cdcdcd;
+    position: absolute;
+    padding-top: 28px;
+    top: 0px;
+    left: -7px;
+    background-color: #ffffff;
+    z-index: 10;
+}
+
+.phone-list{
+    position: absolute;
+    right: 0px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #cdcdcd;
+    color: #333333;
+}
+
+.wp-phone{
+    padding-left: 13px;
+    width: 51px;
+    padding-right: 20px;
+    text-align: left
+}
+.ph-icon{
+    display: inline-block;
+    background: url("../img/head.png") no-repeat -294px -142px;
+    width: 10px;
+    height: 14px;
+    vertical-align: middle;
+}
+.zw{
+    position: absolute;
+    width: 90px;
+    right: -1px;
+    background-color: #fff;
+    height: 28px;
+    top: -29px;
+    border-left: 1px solid #cdcdcd;
+    border-top: 1px solid #cdcdcd;
+    border-right: 1px solid #cdcdcd;
+    z-index: 11;
+}
+
+.phone,.mores{
+    position: relative;
+    z-index: 20;
+}
+
+.wp-phone h5{
+    text-align: center;
+}
+
+.more-list{
+    width: 260px;
+    display: none;
+    position: absolute;
+    right: -10px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(205, 205, 205);
+    color: rgb(51, 51, 51);
+}
+
+.zwm{
+    position: absolute;
+    margin-left: 10px;
+    /* padding-right: 5px; */
+    width: 64px;
+    right: -10px;
+    background-color: #fff;
+    height: 28px;
+    top: 0px;
+    border-left: 1px solid #cdcdcd;
+    border-top: 1px solid #cdcdcd;
+    border-right: 1px solid #cdcdcd;
+    z-index: 11;
+}
+
+
+.user-infor{
+    display: none;
+    left: 0;
+    padding-top: 14px;
+    background-color: #fff;
+    z-index: 4;
+    position: absolute;
+    top: 25px;
+    width: 230px;
+    border: 1px solid #cdcdcd;
+    color: #333;
+}
+
+.top-nav-pic-infs{
+    border-bottom: #d6d6d6 1px dotted;
+    width: 175px;
+    padding-left: 5px;
+    height: 32px;
+    line-height: 32px;
+    text-align: left;
+}
+
+.top-nav-list span{
+    margin: 3px 0;
+    width: 50%;
+    float: left;
+}
+
+.white{
+    width: 150px;
+    position: absolute;
+    background-color: #ffffff;
+    top: 0;
+    left: 0;
+    height: 28px;
+    border-left: 1px solid #cdcdcd;
+    border-top: 1px solid #cdcdcd;
+    border-right: 1px solid #cdcdcd;
+    z-index: 11;
+}
+
+.top-nav-pic-avater{
+    background-image: url('../img/sprites-hash-b45bfef8.png');
+    background-position: -164px -142px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    margin-left: 8px;
+}
+
+
+.top-nav-pic-avater{
+    float: left;
+}
+.top-nav-pic-infs{
+    float: right;
+}
+
+.top-nav-list{
+    margin: 10px 12px;
+    padding: 0 0 0 15px;
+
+}
+
+.top-nav-list span a:hover{
+    color: #f10180;
+}
+
+.top-nav-pic-infs a:hover{
+    color: #f10180;
+}

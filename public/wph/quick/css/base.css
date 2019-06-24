@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*版心*/
+.w {
+    width: 1000px;
+    margin: 0 auto;
+}
+.h {
+    width: 960px;
+    margin: 0 auto;
+}
+body {
+    font: 12px arial, 'microsoft yahei';
+    background-color: #f5f5f5;
+}
+ul, li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:hover {
+    color: #f10180;
+    /* background-color: #fff; */
+}
+img {
+    border: 0;
+    vertical-align: middle;
+}
+input, textarea, select{
+    border: 0;
+    outline: none;
+}
+/* 添加小标签，控制行内元素方便 */
+i, em{
+    font-style: normal;
+}
+.tc {
+    text-align: center;
+}
+/* 浮动 */
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix:before, .clearfix:after{
+    content: '';
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+.white {
+    color: #fff;
+    cursor:pointer;
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../icofonts/iconfont.eot');
+    src: url('../icofonts/iconfont.eot?#iefix') format('embedded-opentype'), url('../icofonts/iconfont.woff2') format('woff2'), url('../icofonts/iconfont.woff') format('woff'), url('../icofonts/iconfont.ttf') format('truetype'), url('../icofonts/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

@@ -1,0 +1,264 @@
+
+.fl{
+    float: left;
+}
+.fl img{
+    width: 125px;
+    height: 100px;
+}
+.fr{
+    float: right;
+    width: 304px;
+    height: 100px;
+}
+.head{
+    height: 100px;
+    margin: 0 auto;
+}
+.w{
+    width: 1000px;
+}
+.c_body{
+    background: url("../img/bj.jpg") no-repeat;
+}
+
+.c_content{
+    height: 650px;
+    padding: 50px 20px;
+    margin: 0 auto;
+}
+.c_right{
+    float: right;
+    width: 360px;
+    background-color: #ffffff;
+}
+.c_head{
+    height: 50px;
+    padding: 0 30px;
+    border-bottom:1px solid #e0e0e0 ;
+    line-height: 50px;
+}
+.c_head h3{
+    float: left;
+}
+.c_head .c_login{
+    float: right;
+}
+
+.c_login a{
+    color: #f10180;
+    text-decoration: none;
+}
+.footer{
+    height: 78px;
+    line-height: 78px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.control-group .user{
+    width: 300px;
+    height: 46px;
+    line-height: 46px;
+    padding: 6px 10px 6px 40px;
+}
+
+.c_register_body{
+    padding: 30px;
+}
+
+.control-group{
+    position: relative;
+}
+
+.c-icon-phone{
+    position: absolute;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+    top: 13px;
+    background: url("../img/sprites-hash-6954197b.png-5a6693d5.png") no-repeat -420px -161px;
+
+}
+
+.iuser,.ipassword,.cpassword{
+    position: absolute;
+    right: 10px;
+    top: 13px;
+    font-size: 18px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.u-input-tip,.u-input-code,.u-input-cpassword,.u-input-agree{
+    color: #f64a4a;
+}
+.control-group .red{
+    border: 1px solid red;
+}
+.u-input-tip,.u-input-code,.u-input-cpassword,.u-input-password,.u-input-agree{
+    position: relative;
+    min-height: 19px;
+    max-height: 36px;
+    line-height: 1.5;
+}
+
+.code{
+    width: 154px;
+    height: 46px;
+    padding-left: 40px;
+    line-height: 46px;
+}
+.c-icon-code{
+    position: absolute;
+    left: 10px;
+    top: 13px;
+    background: url("../img/sprites-hash-6954197b.png-5a6693d5.png") no-repeat -444px -161px;
+    width: 20px;
+    height: 20px;
+
+}
+.btn-code{
+    width: 132px;
+    padding: 0 12px;
+    height: 46px;
+    font-size: 14px;
+    line-height: 46px;
+    display: inline-block;
+    border-radius: 3px;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: top;
+    background-color: #d0d0d0;
+    border: 1px solid #d0d0d0;
+    cursor: not-allowed;
+
+}
+
+.control-group a{
+    text-decoration: none;
+    color: #999;
+}
+.two{
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+}
+.icode{
+    position: absolute;
+    right: 10px;
+    top: 13px;
+    width: 20px;
+    height: 20px;
+    font-size: 18px;
+    visibility: hidden;
+    opacity: 0;
+
+}
+
+
+
+.ui-btn-secondary {
+    background-color: #fcedf2;
+    border: 1px solid #ffbee0;
+    color: #e00078!important;
+}
+
+.password,.confirmPassword{
+    width: 300px;
+    height: 46px;
+    line-height: 46px;
+    padding: 6px 10px 6px 40px;
+}
+
+
+.c-icon-password{
+    background: url("../img/sprites-hash-6954197b.png-5a6693d5.png") no-repeat -396px -161px;
+    position: absolute;
+    left: 10px;
+    top: 13px;
+    width: 20px;
+    height: 20px;
+}
+.lead{
+    display: none;
+}
+
+.u-input-tip .password-tip{
+    color: #666;
+}
+
+.l_bg{
+    display: inline-block;
+    width: 30px;
+    height: 8px;
+    background-color: #e0e0e0;
+}
+.l_body{
+    display: block;
+    width: 10px;
+    height: 8px;
+    background-color: #f64a4a;
+}
+
+.error{
+    color: #f64a4a!important;
+}
+
+.text-weak{
+    display: none;
+    color: red;
+}
+.text-medium{
+    display: none;
+    color: #ffa200;
+}
+.text-strong{
+    display: none;
+    color: #00c500;
+}
+
+.indicator-text{
+    font-size: 12px;
+}
+
+.medium{
+     width:20px;
+     background-color:#ffa200;
+ }
+
+.strong{
+    width:30px;
+    background-color:#00c500;
+}
+.u-provision-txt{
+    font-size: 12px;
+    vertical-align: middle;
+    display: inline-block;
+    width: 276px;
+}
+.u-provision-txt a{
+    color: #1d94d1;
+}
+.ui-checkbox-normal{
+    vertical-align: top;
+}
+.mb30{
+    width: 300px;
+    height: 46px;
+    margin-bottom: 30px;
+}
+.reg-form-btn{
+    display: block;
+    font-size: 16px;
+    width: 298px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 4px;
+    text-align: center;
+    background-color: #f10180;
+    border: 1px solid #f10180;
+}
+.reg-form-btn span{
+    color: #ffffff;
+}

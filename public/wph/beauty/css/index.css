@@ -1,0 +1,23 @@
+.banner {
+    /* width: 100%; */
+    height: 360px;
+    border-top: 1px solid #ccc;
+}
+/* .banner-center img{
+    width: 1108px;
+    height: 366px;
+    margin-top: 47px;
+    margin-left:32px;
+} */
+.fix-nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 35px;
+    height: 100%;
+    background-color: #000;
+}
+.every {
+    height: 630px;
+    margin-bottom: 40px;
+}

@@ -1,0 +1,85 @@
+/* 清除默认样式 */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+img{
+    border: 0;
+    vertical-align: middle;
+}
+input, button{
+    border: 0;
+    outline: 0;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: 400;
+}
+/* 设置常用样式 */
+body{
+    font: 12px arial, 'microsoft yahei';
+    color: #666;
+}
+.w {
+    width: 1000px;
+    margin: 0 auto;
+}
+a {
+    color: #666666;
+    text-decoration: none;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix:before, .clearfix:after{
+    content: '';
+    display: table;
+}
+.clearfix:after{
+    clear: both;
+}
+.clearfix{
+    *zoom: 1;
+}
+.tc{
+    text-align: center;
+}
+.db{
+    display: block;
+}
+.dib{
+    display: inline-block;
+}
+.clo{
+    color: #f10180;
+}
+.f14{
+    font-size: 14px;
+}
+.f16{
+    font-size: 16px;
+}
+.f18{
+    font-size: 18px;
+}
+@font-face {
+	font-family: 'iconfont';
+	src: url('iconfont.eot');
+	src: url('iconfont.eot?#iefix') format('embedded-opentype'),
+		url('iconfont.woff2') format('woff2'),
+		url('iconfont.woff') format('woff'),
+		url('iconfont.ttf') format('truetype'),
+		url('iconfont.svg#iconfont') format('svg');
+  }
+  .iconfont {
+	font-family: "iconfont" !important;
+	font-size: 16px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  }

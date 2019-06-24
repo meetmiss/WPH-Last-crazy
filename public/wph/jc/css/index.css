@@ -1,0 +1,325 @@
+ 
+
+.banner {
+    
+    width: 100%; 
+   /* height: 474px;  */
+    border-top: 1px solid #eee; 
+     /* background: url(../images.lun1.jpg) no-repeat center; */
+}
+.lun {
+    position: relative;
+    height: 366px;
+}
+.lun img{
+    position: absolute;
+    /* width: 1108px; */
+    height: 366px;
+    margin-top: 47px;
+    margin-left:32px;
+}
+/* <!-- 右边固定导航区域 --> */
+/* .fix-nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 35px;
+    height: 100%;
+    text-align: center;
+    background-color: #000;
+}
+右侧导航栏
+.nav-shop1 {
+    width: 35px;
+	height: 150px;
+    background-color: #fa2a83;
+    margin-top: 200px;
+   
+}
+.nav-shop1 img {
+    margin-left: 5px;
+    background-color: #fa2a83;
+    background-image: url(images/suo.png)  no-repeat center;
+}
+.nav-shop1 a {
+    color: #fff;
+   
+}
+.nav-shop1 i {
+    display: inline-block;
+    width: 24px;
+	height: 15px;
+	line-height: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-left: 5px;
+    color: #000;
+	margin-top: 10px;
+	
+} */
+
+.fix {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 36px;
+    height: 100%;
+    padding-top: 80px;
+    background-color: #262626;
+    color: #fff;
+    text-align: center;
+    z-index: 4;
+    cursor: pointer;
+}
+.fix .changeBgc1 {
+    background-color: #f10180;
+}
+.fix span {
+    display: inline-block;
+}
+.account {
+    position: relative;
+    height: 42px;
+    margin-bottom: 2px;
+}
+.account div:first-child { 
+    font-size: 24px;
+}
+.account div:nth-child(2) {
+    font-size: 12px;
+}
+.account .box {
+    display: none;
+    position: absolute;
+    right: 36px;
+    top: 0;
+    width: 274px;
+    height: 304px;
+    border: 1px solid #cecece;
+    border-right: none;
+    background-color: #fff;
+}
+.account .box .top {
+    height: 126px;
+    padding-top: 30px;
+    text-align: center;
+}
+.account .box .top div {
+    width: 68px;
+    height: 68px;
+    margin: 0 auto;
+    background: url(../wph/sprites-hash-b45bfef8.png) no-repeat -328px -284px/608px 524px;
+}
+.account .box .top p {
+    color: #333;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+}
+.account .box .top p a {
+    color: #f10180;
+}
+.account .box .top span {
+    position: absolute;
+    top: 16px;
+    right: 19px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: url(../wph/sprite-hash-465ccbdf.png) no-repeat -140px -174px;
+}
+.account .box .body {
+    height: 76px;
+    padding: 14px 0;
+    border: 1px solid #e5e5e5;
+    background-color: #f8f8f8;
+}
+.account .box .body a {
+    display: inline-block;
+    width: 135px;
+    text-align: center;
+    color: #333;
+}
+.account .box .body a:hover {
+    color: #f10180;
+}
+.account .box .body a:first-child {
+    border-right: 1px solid #e5e5e5;
+}
+.account .box .body a span {
+    display: block;
+    width: 26px;
+    height: 26px;
+    margin: 10px auto;
+}
+.account .box .body a:nth-child(1) span {
+    background: url(../wph/sprite-hash-465ccbdf.png) no-repeat -203px -30px;
+}
+.account .box .body a:nth-child(2) span {
+    background: url(../wph/sprite-hash-465ccbdf.png) no-repeat 0 -177px;
+}
+.account .box .body a:nth-child(1):hover span {
+    background: url(../wph/sprite-hash-465ccbdf.png) no-repeat -203px -60px;
+}
+.account .box .body a:nth-child(2):hover span {
+    background: url(../wph/sprite-hash-465ccbdf.png) no-repeat -200px -4px;
+}
+.account .box .foot {
+    height: 42px;
+    line-height: 42px;
+    padding-right: 26px;
+    font-size: 12px;
+}
+.account .box .foot a {
+    color: #20a0cd;
+}
+.shopBag {
+    height: 151px;
+    /* margin-bottom: 4px; */
+    background-color: #df147f;
+}
+.shopBag div:first-child {
+    width: 24px;
+    height: 36px;
+    line-height: 36px;
+    padding-top: 15px; 
+    margin: -1px auto 0;
+    border-top: 1px solid #f10180;
+    font-size: 24px;
+}
+.shopBag div:nth-child(2) {
+    width: 14px;
+    line-height: 18px;
+    margin: 0 auto;
+    font-size: 14px;
+    
+}
+.shopBag div:nth-child(3) {
+    width: 20px;
+    height: 24px;
+    line-height: 24px;
+    margin: 5px auto 0;
+    /* border-radius: 50%; */
+    /* background-color: #fff; */
+    color:#000;
+    background: url(../wph/sprite-hash-465ccbdf.png) no-repeat -230px -87px;
+}
+
+.else {
+    position: relative;
+    background-color: #262626;
+    padding-top: 4px;
+}
+.else div:nth-child(1) {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    margin-bottom: 2px;
+    font-size: 26px;
+}
+.else div:nth-child(2) {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    margin-bottom: 2px;
+    font-size: 22px;
+
+}
+.else div:nth-child(3) {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    margin-bottom: 2px;
+    font-size: 28px;
+}
+.else div:nth-child(4) {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    margin-bottom: 2px;
+    font-size: 20px;
+}
+.else .box1 div {
+    display: none;
+    position: absolute;
+    right: 36px;
+    width: 100px;
+    height: 34px;
+    line-height: 34px;
+    padding: 0 8px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-right: none;
+    border-radius: 3px 0 0 3px;
+    font-size: 14px;
+    text-align: center;
+    color: #333;
+    transition: all .2s linear;
+}
+.else .box1 div:nth-child(1) {
+    top: 4px;
+}
+.else .box1 div:nth-child(2) {
+    top: 42px;
+}
+.else .box1 div:nth-child(3) {
+    top: 80px;
+}
+.else .box1 div:nth-child(4) {
+    top: 118px;
+}
+
+.rtTop {
+    position: absolute;
+    bottom: 82px;
+    right: 0;
+    margin: 0 auto;
+    width: 36px;
+    height: 82px;
+}
+.rtTop div:nth-child(1) {
+    height: 36px;
+    line-height: 36px;
+    margin-bottom: 2px;
+    font-size: 20px;
+    color: #ccc;
+}
+.rtTop div:nth-child(2) {
+    height: 36px;
+    line-height: 36px;
+    margin-bottom: 8px;
+    font-size: 20px;
+    color: #ccc;
+}
+.rtTop .box2 div {
+    display: none;
+    position: absolute;
+    right: 36px;
+    width: 100px;
+    height: 34px;
+    line-height: 34px;
+    padding: 0 8px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-right: none;
+    border-radius: 3px 0 0 3px;
+    font-size: 14px;
+    text-align: center;
+    color: #333;
+}
+.rtTop .box2 div:nth-child(1) {
+    top: 0;
+}
+.rtTop .box2 div:nth-child(2) {
+    top: 38px;
+}
+
+
+.every {
+    height: 630px;
+    margin-bottom: 40px;
+}
+
+.allpic1{
+    display: none;
+}

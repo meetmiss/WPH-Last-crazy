@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.w{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: #666666;
+}
+
+li{
+    list-style: none;
+}
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+.clearfix:after{
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+body{
+    font-size: 12px;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'iconfont';
+    src: url('../icofonts/iconfont.eot');
+    src: url('../icofonts/iconfont.eot?#iefix') format('embedded-opentype'), url('../icofonts/iconfont.woff2') format('woff2'), url('../icofonts/iconfont.woff') format('woff'), url('../icofonts/iconfont.ttf') format('truetype'), url('../icofonts/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

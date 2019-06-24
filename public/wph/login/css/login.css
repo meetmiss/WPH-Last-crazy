@@ -1,0 +1,328 @@
+
+.fl{
+    float: left;
+}
+.fl img{
+    width: 125px;
+    height: 100px;
+}
+.fr{
+    float: right;
+    width: 304px;
+    height: 100px;
+}
+.head{
+    height: 100px;
+    margin: 0 auto;
+}
+.w{
+    width: 1000px;
+}
+.c_body{
+    background: url("../img/bj.jpg") no-repeat;
+}
+
+.c_content{
+    height: 650px;
+    padding: 50px 20px;
+    margin: 0 auto;
+}
+.c_right{
+    float: right;
+    width: 360px;
+    background-color: #ffffff;
+    padding-bottom: 15px;
+}
+.c_head{
+    height: 50px;
+    border-bottom:1px solid #e0e0e0 ;
+    line-height: 50px;
+}
+.c_head h3{
+    float: left;
+}
+.c_head .c_login{
+    float: right;
+}
+
+.c_login a{
+    color: #f10180;
+}
+
+.nav{
+    width: 180px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #666;
+}
+.left{
+   float: left;
+    position: relative;
+    cursor: pointer;
+}
+.right{
+    float: right;
+    cursor: pointer;
+}
+
+a{
+    color: #333;
+
+}
+a:hover{
+    text-decoration: none;
+    color: #f10180;
+}
+.left:after{
+    position: absolute;
+    width: 1px;
+    right: 0;
+    height: 20px;
+    background-color: #ccc;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.active{
+    color: #f10180;
+    cursor: default;
+}
+
+.t-hide{
+    display: none;
+}
+
+.tab-panel{
+    padding-top: 30px;
+}
+.row{
+    position: relative;
+    z-index: 1;
+    min-height: 192px;
+}
+
+.img-wrapper{
+    position: absolute;
+    left: 94px;
+    width: 150px;
+    height: 150px;
+    top: 50%;
+    padding: 10px;
+    transform:  translateY(-50%);
+}
+
+.guide-img{
+    background: url("../img/sprites-hash-6954197b.png-5a6693d5.png") no-repeat 0 -104px;
+    width: 120px;
+    height: 192px;
+    position: absolute;
+    top: 0;
+    right: 30px;
+    z-index: 1;
+
+}
+.txt{
+    margin-top: 20px;
+    color: #333;
+    line-height: 16px;
+    text-align: center;
+}
+
+.u-text-highlight{
+    color: #f10180;
+}
+.icon-scan{
+    display: inline-block;
+    background-image: url("../img/sprites-hash-6954197b.png-5a6693d5.png") ;
+    background-position: -605px -121px;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+.c_footer{
+    padding: 0 30px;
+}
+.login-third{
+    padding-top: 30px;
+}
+.wechat{
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.wechat:before{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -30px;
+    z-index: 2;
+    width: 60px;
+    height: 40px;
+    content: '';
+    background-color: #fff;
+}
+.wechat:after{
+    position: absolute;
+    content: '';
+    width: 80%;
+    top: 20px;
+    border-top: 1px solid #e0e0e0;
+    z-index: 1;
+}
+.wechat-btn{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.wechat-icon{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-image:url("../img/sprites-hash-6954197b.png-5a6693d5.png") ;
+    background-position: -308px -161px;
+    width: 40px;
+    height: 40px;
+    z-index: 3;
+}
+
+.registerBtn{
+    position: relative;
+    z-index: 2;
+    color: #333;
+    line-height: 24px;
+    font-size: 14px;
+}
+.c-login-third-main-list li{
+    float: left;
+    position: relative;
+    padding-right: 11px;
+    padding-left: 10px;
+    line-height: 24px;
+}
+
+.c-login-third-main-list li:after {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 1;
+    margin-top: -5px;
+    height: 10px;
+    content: '';
+    border-left: 1px solid #e0e0e0;
+}
+.moreBtn{
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: top;
+    line-height: 24px;
+    color: #999;
+}
+
+.moreBtn:focus,.moreBtn:hover{
+    color: #666;
+    text-decoration: none;
+}
+.c-login-third-other-list{
+    margin-left: -8px;
+    width: 330px;
+}
+.c-login-third-other-item{
+    float: left;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 10px;
+    min-width: 66px;
+    vertical-align: top;
+    text-align: center;
+    font-size: 12px;
+}
+
+.userName,.passWord{
+    padding-left: 40px;
+    width: 300px;
+    height: 46px;
+    line-height: 46px;
+    margin: 0 auto;
+}
+.error{
+    font-size: 12px;
+    color: #666;
+    position: relative;
+    min-height: 19px;
+    max-height: 36px;
+    overflow: hidden;
+}
+.form{
+    width: 300px;
+    margin: 0 auto;
+}
+.group{
+    position: relative;
+}
+.icon-user{
+    position: absolute;
+    left: 10px;
+    top: 12px;
+    background-image: url("../img/sprites-hash-6954197b.png-5a6693d5.png");
+    width: 20px;
+    height: 20px;
+    background-position: -468px -161px;
+}
+.user-wrong,.user-success,.pass-wrong,.pass-success{
+    position: absolute;
+    right: 10px;
+    font-size: 16px;
+    top: 13px;
+    visibility: hidden;
+}
+.icon-password{
+    position: absolute;
+    left: 10px;
+    top: 12px;
+    background-image: url("../img/sprites-hash-6954197b.png-5a6693d5.png");
+    width: 20px;
+    height: 20px;
+    background-position: -396px -161px;
+}
+
+.red {
+    border: 1px solid red;
+}
+.emessage,.pmessage{
+    color: #f64a4a;
+}
+.mb30{
+    width: 300px;
+    height: 46px;
+    margin: 0 auto;
+}
+.login-form-btn{
+    display: block;
+    font-size: 16px;
+    width: 298px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 4px;
+    text-align: center;
+    background-color: #f10180;
+    border: 1px solid #f10180;
+}
+.login-form-btn span{
+    color: #ffffff;
+}
+.control-group a {
+    text-decoration: none;
+    color: #999;
+}
+
+.footer{
+    height: 78px;
+    line-height: 78px;
+    text-align: center;
+    margin: 0 auto;
+}
