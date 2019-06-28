@@ -85,24 +85,31 @@ $(".nav-category").mouseleave(function () {
 $(".nav-category li").mouseenter(function () {
     $(this).addClass("changeBgc").children("a").addClass("changeC");
     $(this).siblings("li").removeClass("changeBgc").children("a").removeClass("changeC");
-});
-$(".nav-category li").mouseenter(function () {
     var num = $(this).index() + 1;
     $(".detail-all").show();
     $('.detail-all .detail:nth-child(' + num + ')').show().siblings(".detail").hide();
+
 });
 $(".nav-category li").mouseleave(function () {
     var num = $(this).index() + 1;
     $(".detail-all").hide();
     $(this).removeClass("changeBgc").children("a").removeClass("changeC");
+   /*  if ($(".detail-all").mouseenter()) {
+        $(this).addClass("changeBgc").children("a").addClass("changeC");
+    } 
+    else {
+        $(".detail-all").hide();
+        $(this).removeClass("changeBgc").children("a").removeClass("changeC");        
+    } */
 });
-$(".detail-all").mouseenter(function () {
+$(".detail-all").mouseenter(function () { 
+    // var num = $(this).children('.detail').index() + 1;
+    // $('.nav-category').find('li:nth-child('+num+')').addClass("changeBgc");
     $(this).show().siblings(".nav-category").children("ul").show();
 })
 $(".detail-all").mouseleave(function () {
     $(this).hide().siblings(".nav-category").children("ul").hide();
 });
-
 // 电梯导航
 $(".brand-wrap li").hover(function () {
     $(this).find("p").show().parents("li").siblings("li").find("p").hide(); 
@@ -144,7 +151,7 @@ function right() {
     } 
     $(".fbc-trigger-con i:nth-child(" + index + ")").addClass("change").siblings().removeClass("change");
     $(".focus-banner-con ul").css({
-        left : -1350 * index + 'px',
+        left : -1920 * index - 285 + 'px',
     })
 }
 $(".arrow-r").click(function () {
@@ -158,18 +165,18 @@ $(".arrow-l").click(function () {
     // $(".else .box1 div:nth-child(" + index + ")").hide();
     $(".fbc-trigger-conn i:nth-child(" + index + ")").addClass("change").siblings().removeClass("change");
     $(".focus-banner-con ul").css({
-        left : -1350 * index + 'px',
+        left : -1920 * index - 285 + 'px',
     })
 });
 $(".fbc-trigger-con i").click(function () {
     $(this).addClass("change").siblings().removeClass("change");
     if ($(this).index() == 0) {
         $(".focus-banner-con ul").css({
-            left : -1350 * 2 + 'px',
+            left : -1920 * 2 - 285 + 'px',
         })
     } else if ($(this).index() == 1) {
         $(".focus-banner-con ul").css({
-            left : -1350 * 1 + 'px',
+            left : -1920 * 1 - 285 + 'px',
         })
     }
 });
